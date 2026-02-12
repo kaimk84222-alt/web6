@@ -40,7 +40,7 @@ class ContinuousGenerator:
 
     def load_keywords(self):
         """تحميل الكلمات المفتاحية مع التحقق من وجود الملفات"""
-        ar_file = "keywords_ar.txt"
+        ar_file = "jf.txt"
         en_file = "keywords_en.txt"
         
         if os.path.exists(ar_file):
